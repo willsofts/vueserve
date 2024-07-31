@@ -1,0 +1,14 @@
+			<div id="searchpanelnum" class="panel-body fa-hidden">
+				<form id="fssearchformnum" name="fssearchformnum" method="post">
+					<input type="hidden" name="ajax" value="true"/>
+					<input type="hidden" name="rowsPerPage" value="<%=page.setting?.rowsPerPage%>"/>
+					<input type="hidden" name="limit" value="<%=page.setting?.limit%>"/>
+					<input type="hidden" name="page" value="1"/>
+					<input type="hidden" name="orderBy" value=""/>
+					<input type="hidden" name="orderDir" value=""/>
+					<%- include('./sfte011_filter') %>		
+				</form>
+				<div id="listpanelnum" class="table-responsive fa-list-panel">
+					<%- include('./sfte011_data') %>
+				</div>
+			</div>
