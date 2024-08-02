@@ -374,6 +374,7 @@ function removeAccessorInfo() {
 function sendMessageInterface(win) {
   let moderator = win ? "opener" : "parent";
   let info = getAccessorInfo();
+  let options = getStorage("accessoptions");
   let msg = {
     type: "storage",
     moderator: moderator,
@@ -383,7 +384,8 @@ function sendMessageInterface(win) {
     IMG_URL: appinfo_getImgUrl(),
     DEFAULT_LANGUAGE: appinfo_getDefaultLanguage(),
     API_TOKEN: appinfo_getApiToken(),
-    accessorinfo: info
+    accessorinfo: info,
+    accessoptions: options
   };
   return sendMessageToFrame(msg, win);
 }
@@ -443,6 +445,7 @@ function handleRequestMessage(data) {
     if (data.IMG_URL !== undefined) setImgUrl(data.IMG_URL);
     if (data.DEFAULT_LANGUAGE !== undefined) setDefaultLanguage(data.DEFAULT_LANGUAGE);
     if (data.API_TOKEN !== undefined) setApiToken(data.API_TOKEN);
+    if (data.accessoptions !== undefined) setStorage("accessoptions", data.accessoptions);
     if (data.accessorinfo) {
       saveAccessorInfo(data.accessorinfo);
     }
@@ -496,6 +499,7 @@ window.onmessage = function (e) {
       payload = JSON.parse(e.data);
     }
     //in case of parent window, try to send accessor info
+
     if (payload.type == "accessorinfo") {
       sendMessageInterface(getCurrentWindow());
       return;
@@ -620,7 +624,6 @@ function openNewWindow(settings) {
   fs_window.opener = self;
   try {
     addWindow(fs_window);
-    console.log("fs_window", fs_window);
   } catch (ex) {
     console.error(ex);
   }
@@ -5423,4 +5426,4 @@ console.log("Vue version", runtime_core_esm_bundler/* version */.rE);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=index.633e4c4c.js.map
+//# sourceMappingURL=index.a860c58b.js.map
