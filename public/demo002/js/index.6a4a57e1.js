@@ -902,7 +902,7 @@ Utilities.hasAttributes = (element, attributes) => {
 
 /***/ }),
 
-/***/ 5384:
+/***/ 1845:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1626,6 +1626,12 @@ var jquery_maskedinput = __webpack_require__(8435);
     });
   };
 })();
+;// CONCATENATED MODULE: ./src/assets/json/program_message.json
+var program_message_namespaceObject = /*#__PURE__*/JSON.parse('[{"code":"QS0001","TH":"คุณต้องการลบรายการนี้ใช่หรือไม่ %s","EN":"Do you want to delete this transaction? %s"},{"code":"QS0002","TH":"คุณต้องการบันทึกรายการนี้ใช่หรือไม่","EN":"Do you want to save this transaction?"},{"code":"QS0003","TH":"คุณต้องการยกเลิกรายการนี้ใช่หรือไม่","EN":"Do you want to cancel this transaction?"},{"code":"QS0004","TH":"บันทึกรายการเรียบร้อยแล้ว %s","EN":"Process Success %s"},{"code":"QS0005","TH":"ท่านต้องการลบรายการนี้ใช่หรือไม่ %s","EN":"Do you want to delete this record? %s"},{"code":"QS0006","TH":"คุณต้องการส่งรายการนี้ใช่หรือไม่","EN":"Do you want to send this transaction?"},{"code":"QS0007","TH":"คุณต้องการปรับปรุงรายการนี้ใช่หรือไม่","EN":"Do you want to update this transaction?"},{"code":"QS0008","TH":"คุณต้องการล้างรายการนี้ใช่หรือไม่","EN":"Do you want to clear this?"},{"code":"QS0009","TH":"คุณต้องการดำเนินการ รายการนี้ใช่หรือไม่","EN":"Do you want to process this transaction?"},{"code":"QS0010","TH":"คุณต้องการบันทึกเป็นรายการนี้ใช่หรือไม่","EN":"Do you want to save as this transaction ?"},{"code":"QS0011","TH":"คุณต้องการยืนยันการรับรายการนี้ใช่หรือไม่","EN":"Do you want to receive this transaction?"},{"code":"QS0012","TH":"คุณต้องการล้างและเริ่มใหม่รายการนี้ใช่หรือไม่","EN":"Do you want to reset this transaction?"},{"code":"QS0013","TH":"คุณต้องการลบ %s รายการใช่หรือไม่","EN":"Do you want to delete %s row(s)?"},{"code":"QS0014","TH":"คุณต้องการยืนยันการอนุมัติ  %s รายการนี้ใช่หรือไม่","EN":"Are you sure to confirm approve the %s request?"},{"code":"QS0015","TH":"คุณต้องการยืนยันการปฏิเสธ  %s รายการนี้ใช่หรือไม่","EN":"Are you sure to reject %s?"},{"code":"QS0016","TH":"คุณต้องการยืนยันการสร้างใบคำร้องใช่หรือไม่","EN":"Do you want to create this request?"},{"code":"QS0017","TH":"คุณต้องการนำเข้ารายการนี้ใช่หรือไม่","EN":"Do you want to import this transaction?"},{"code":"QS0018","TH":"คุณต้องการนำออกรายการนี้ใช่หรือไม่","EN":"Do you want to export this transaction?"},{"code":"QS0019","TH":"คุณต้องการส่งรายการนี้ใหม่ใช่หรือไม่?","EN":"Do you want to resend this transaction?"},{"code":"QS0020","TH":"คุณต้องการยืนยันการแก้ไขใหม่  %s รายการนี้ใช่หรือไม่","EN":"Are you sure to revise %s?"},{"code":"fsconfirmbtn","TH":"ตกลง","EN":"OK"},{"code":"fscancelbtn","TH":"ยกเลิก","EN":"Cancel"},{"code":"fssavebtn","TH":"บันทึก","EN":"Save"},{"code":"fsclosebtn","TH":"ปิด","EN":"Close"},{"code":"fsokbtn","TH":"ตกลง","EN":"OK"},{"code":"fsmessagetitle","TH":"ข้อความ","EN":"Message"},{"code":"fsaccepttitle","TH":"ยืนยัน","EN":"Confirm"},{"code":"fssuccessmsg","TH":"การดำเนินการสำเร็จ","EN":"Process success"},{"code":"fsfailmsg","TH":"การดำเนินการไม่สำเร็จ","EN":"Process fail"},{"code":"fsalert","TH":"คำเตือน","EN":"Alert"},{"code":"fswarn","TH":"คำเตือน","EN":"Warning"},{"code":"fsconfirm","TH":"ยืนยัน","EN":"Confirmation"},{"code":"fsinfo","TH":"ข้อความ","EN":"Information"},{"code":"QS8021","TH":"ท่านไม่มีสิทธิ์ดูรายการนี้","EN":"No permission to retrieve this transaction"},{"code":"QS8022","TH":"ท่านไม่มีสิทธิ์แก้ไขรายการนี้","EN":"No permission to edit this transaction"},{"code":"QS8023","TH":"ท่านไม่มีสิทธิ์ลบรายการนี้","EN":"No permission to delete this transaction"},{"code":"QS8024","TH":"ท่านไม่มีสิทธิ์สร้างรายการนี้","EN":"No permission to add this transaction"},{"code":"QS8025","TH":"ท่านไม่มีสิทธิ์นำเข้ารายการนี้","EN":"No permission to import this transaction"},{"code":"QS8026","TH":"ท่านไม่มีสิทธิ์นำออกรายการนี้","EN":"No permission to export this transaction"},{"code":"QS0101","TH":"ไม่พบข้อมูลที่ต้องการ โปรดกรุณาระบุและค้นหาใหม่","EN":"Record not found"},{"code":"QS0102","TH":"นำเข้าข้อมูลไม่ถูกต้อง","EN":"Invalid input"},{"code":"QS0103","TH":"ข้อมูลไม่ได้ระบุ","EN":"Value is undefined"},{"code":"QS0104","TH":"ปรับปรุงข้อมูลเรียบร้อย","EN":"Update success"},{"code":"QS0105","TH":"นำเข้าข้อมูลซ้ำซ้อน","EN":"Duplicate record"},{"code":"QS0201","TH":"Reset password success, Please verify your email for new password changed","EN":"Reset password success, Please verify your email for new password changed"},{"code":"QS0202","TH":"Reset Two Factor Success","EN":"Reset Two Factor Success"}]');
+;// CONCATENATED MODULE: ./src/assets/json/default_label.json
+var default_label_namespaceObject = /*#__PURE__*/JSON.parse('[{"language":"TH","label":[{"name":"english_lang","value":"อังกฤษ"},{"name":"thai_lang","value":"ไทย"},{"name":"title_new","value":"สร้างใหม่"},{"name":"title_edit","value":"แก้ไข"},{"name":"title_view","value":"มอง"},{"name":"save_button","value":"บันทึก"},{"name":"delete_button","value":"ลบ"},{"name":"retrieve_button","value":"เรียกดู"},{"name":"search_button","value":"ค้นหา"},{"name":"saveas_button","value":"บันทึกเป็น"},{"name":"submit_button","value":"ส่งข้อมูล"},{"name":"cancel_button","value":"ยกเลิก"},{"name":"clear_button","value":"ล้าง"},{"name":"reset_button","value":"ล้าง"},{"name":"update_button","value":"ปรับปรุง"},{"name":"close_button","value":"ปิด"},{"name":"send_button","value":"ส่ง"},{"name":"complete_button","value":"สำเร็จ"},{"name":"download_button","value":"ดาวน์โหลด"},{"name":"insert_button","value":"เพิ่ม"},{"name":"executebutton","value":"ปฏิบัติการ"},{"name":"ok_button","value":"ตกลง"},{"name":"import_button","value":"นำเข้า"},{"name":"export_button","value":"นำออก"},{"name":"remove_button","value":"ลบ"},{"name":"upload_button","value":"อัพโหลด"},{"name":"consend_button","value":"ส่งแบบสอบถาม"},{"name":"version_label","value":"รุ่น"},{"name":"action_label","value":" "},{"name":"active_label","value":"ใช้งาน"},{"name":"inactive_label","value":"ไม่ใช้งาน"},{"name":"all_label","value":"ทั้งหมด"},{"name":"seqno_label","value":"ลำดับที่"},{"name":"page_notfound","value":"ไม่พบหน้าใช้งาน"},{"name":"record_notfound","value":"ไม่พบรายการ"},{"name":"trx_notfound","value":"ไม่พบรายการ"},{"name":"invalid_alert","value":"กรอกข้อมูลไม่ถูกต้อง"},{"name":"empty_alert","value":"กรุณากรอกข้อมูล"}]},{"language":"EN","label":[{"name":"english_lang","value":"English"},{"name":"thai_lang","value":"Thai"},{"name":"title_new","value":"Add New"},{"name":"title_edit","value":"Edit"},{"name":"title_view","value":"View"},{"name":"save_button","value":"Save"},{"name":"delete_button","value":"Delete"},{"name":"retrieve_button","value":"Retrieve"},{"name":"search_button","value":"Search"},{"name":"saveas_button","value":"Save As"},{"name":"submit_button","value":"Submit Data"},{"name":"cancel_button","value":"Cancel"},{"name":"clear_button","value":"Clear"},{"name":"reset_button","value":"Clear"},{"name":"close_button","value":"Close"},{"name":"update_button","value":"Update"},{"name":"send_button","value":"Send"},{"name":"complete_button","value":"Complete"},{"name":"download_button","value":"Down Load"},{"name":"insert_button","value":"Insert"},{"name":"execute_button","value":"Execute"},{"name":"ok_button","value":"OK"},{"name":"import_button","value":"Import"},{"name":"export_button","value":"Export"},{"name":"remove_button","value":"Remove"},{"name":"upload_button","value":"Upload"},{"name":"consend_button","value":"Send"},{"name":"version_label","value":"Version"},{"name":"action_label","value":" "},{"name":"active_label","value":"Active"},{"name":"inactive_label","value":"Inactive"},{"name":"all_label","value":"All"},{"name":"seqno_label","value":"No."},{"name":"page_notfound","value":"Page not found"},{"name":"record_notfound","value":"Record not found"},{"name":"trx_notfound","value":"Transaction not found"},{"name":"invalid_alert","value":"Invalid input"},{"name":"empty_alert","value":"This cannot be empty"}]}]');
+;// CONCATENATED MODULE: ./src/assets/json/program_label.json
+var program_label_namespaceObject = /*#__PURE__*/JSON.parse('[{"language":"TH","label":[{"name":"caption_title","value":"ตัวอย่างข้อมูล"},{"name":"account_label","value":"บัญชี"},{"name":"amount_label","value":"ยอดเงิน"},{"name":"age_label","value":"อายุ"},{"name":"gender_label","value":"เพศ"},{"name":"male_label","value":"ชาย"},{"name":"female_label","value":"หญิง"},{"name":"domestic_label","value":"เป็นคนในประเทศ"},{"name":"effectdate_label","value":"วันที่มีผล"},{"name":"effecttime_label","value":"เวลาที่มีผล"},{"name":"pincode_label","value":"รหัสลับ"},{"name":"marrystatus_label","value":"สถานะ"},{"name":"licenses_label","value":"ใบอนุญาต"},{"name":"languages_label","value":"ภาษา"},{"name":"remark_label","value":"หมายเหตุ"},{"name":"title_label","value":"หัวข้อ"},{"name":"caption_label","value":"คำบรรยาย"},{"name":"assets_label","value":"จำนวนสินทรัพย์"},{"name":"credit_label","value":"จำนวนเครดิต"},{"name":"passcode_label","value":"รหัสผ่าน"},{"name":"createdate_label","value":"วันที่สร้าง"},{"name":"createtime_label","value":"เวลาที่สร้าง"},{"name":"editdate_label","value":"วันที่แก้ไข"},{"name":"edittime_label","value":"เวลาแก้ไข"},{"name":"account_head","value":"บัญชี"},{"name":"amount_head","value":"ยอดเงิน"},{"name":"age_head","value":"อายุ"},{"name":"gender_head","value":"เพศ"},{"name":"effectdate_head","value":"วันที่มีผล"},{"name":"effecttime_head","value":"เวลาที่มีผล"},{"name":"title_head","value":"ชื่อ"},{"name":"age_alert","value":"อายุต้องอยู่ระหว่าง %s และ %s ปี"}]},{"language":"EN","label":[{"name":"caption_title","value":"Sampling Information"},{"name":"account_label","value":"Account"},{"name":"amount_label","value":"Amount"},{"name":"age_label","value":"Age"},{"name":"gender_label","value":"Gender"},{"name":"male_label","value":"Male"},{"name":"female_label","value":"Female"},{"name":"domestic_label","value":"Domestic"},{"name":"effectdate_label","value":"Effect Date"},{"name":"effecttime_label","value":"Effect Time"},{"name":"pincode_label","value":"PIN"},{"name":"marrystatus_label","value":"Status"},{"name":"licenses_label","value":"Licenses"},{"name":"languages_label","value":"Languages"},{"name":"remark_label","value":"Remark"},{"name":"title_label","value":"Title"},{"name":"caption_label","value":"Caption"},{"name":"assets_label","value":"Number of Assets"},{"name":"credit_label","value":"Credit"},{"name":"passcode_label","value":"Pass Code"},{"name":"createdate_label","value":"Create Date"},{"name":"createtime_label","value":"Create Time"},{"name":"editdate_label","value":"Edit Date"},{"name":"edittime_label","value":"Edit Time"},{"name":"account_head","value":"Account"},{"name":"amount_head","value":"Amount"},{"name":"age_head","value":"Age"},{"name":"gender_head","value":"Gender"},{"name":"effectdate_head","value":"Effect Date"},{"name":"effecttime_head","value":"Effect Time"},{"name":"title_head","value":"Title"},{"name":"age_alert","value":"Age must be between %s and %s years"}]}]');
 ;// CONCATENATED MODULE: ./src/assets/js/appinfo.js
 var DEFAULT_LANGUAGE = "EN";
 var API_URL = "";
@@ -1688,11 +1694,41 @@ function setBaseStorage(value) {
 function setDefaultRawParameters(value) {
   DEFAULT_RAW_PARAMETERS = value;
 }
+var default_labels = [];
+var program_labels = [];
+var program_message = [];
+function getProgramMessage() {
+  return program_message;
+}
+function appinfo_getDefaultLabels() {
+  return default_labels;
+}
+function appinfo_getProgramLabels() {
+  return program_labels;
+}
+function setProgramMessage(message) {
+  program_message = message;
+}
+function setDefaultLabels(labels) {
+  default_labels = labels;
+}
+function setProgramLabels(labels) {
+  program_labels = labels;
+}
+function appInit(settings = {
+  program_message,
+  default_labels,
+  program_labels
+}) {
+  setProgramMessage(settings.program_message);
+  setDefaultLabels(settings.default_labels);
+  setProgramLabels(settings.program_labels);
+}
 // EXTERNAL MODULE: ./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
 var runtime_core_esm_bundler = __webpack_require__(6768);
 // EXTERNAL MODULE: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
 var runtime_dom_esm_bundler = __webpack_require__(5130);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/AppDemo002.vue?vue&type=template&id=0351c7a7
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/AppDemo002.vue?vue&type=template&id=7de345f9
 
 const _hoisted_1 = /*#__PURE__*/(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", {
   id: "fswaitlayer",
@@ -1729,7 +1765,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onDataDeleted: $options.dataDeleted
   }, null, 8, ["labels", "dataCategory", "onDataSaved", "onDataUpdated", "onDataDeleted"])]))], 64);
 }
-;// CONCATENATED MODULE: ./src/AppDemo002.vue?vue&type=template&id=0351c7a7
+;// CONCATENATED MODULE: ./src/AppDemo002.vue?vue&type=template&id=7de345f9
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.url-search-params.delete.js
 var web_url_search_params_delete = __webpack_require__(4603);
@@ -1994,16 +2030,14 @@ function SearchFormvue_type_template_id_3daf1563_render(_ctx, _cache, $props, $s
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__(4114);
-;// CONCATENATED MODULE: ./src/assets/json/smart_message.json
-var smart_message_namespaceObject = /*#__PURE__*/JSON.parse('[{"code":"QS0001","TH":"คุณต้องการลบรายการนี้ใช่หรือไม่ %s","EN":"Do you want to delete this transaction? %s"},{"code":"QS0002","TH":"คุณต้องการบันทึกรายการนี้ใช่หรือไม่","EN":"Do you want to save this transaction?"},{"code":"QS0003","TH":"คุณต้องการยกเลิกรายการนี้ใช่หรือไม่","EN":"Do you want to cancel this transaction?"},{"code":"QS0004","TH":"บันทึกรายการเรียบร้อยแล้ว %s","EN":"Process Success %s"},{"code":"QS0005","TH":"ท่านต้องการลบรายการนี้ใช่หรือไม่ %s","EN":"Do you want to delete this record? %s"},{"code":"QS0006","TH":"คุณต้องการส่งรายการนี้ใช่หรือไม่","EN":"Do you want to send this transaction?"},{"code":"QS0007","TH":"คุณต้องการปรับปรุงรายการนี้ใช่หรือไม่","EN":"Do you want to update this transaction?"},{"code":"QS0008","TH":"คุณต้องการล้างรายการนี้ใช่หรือไม่","EN":"Do you want to clear this?"},{"code":"QS0009","TH":"คุณต้องการดำเนินการ รายการนี้ใช่หรือไม่","EN":"Do you want to process this transaction?"},{"code":"QS0010","TH":"คุณต้องการบันทึกเป็นรายการนี้ใช่หรือไม่","EN":"Do you want to save as this transaction ?"},{"code":"QS0011","TH":"คุณต้องการยืนยันการรับรายการนี้ใช่หรือไม่","EN":"Do you want to receive this transaction?"},{"code":"QS0012","TH":"คุณต้องการล้างและเริ่มใหม่รายการนี้ใช่หรือไม่","EN":"Do you want to reset this transaction?"},{"code":"QS0013","TH":"คุณต้องการลบ %s รายการใช่หรือไม่","EN":"Do you want to delete %s row(s)?"},{"code":"QS0014","TH":"คุณต้องการยืนยันการอนุมัติ  %s รายการนี้ใช่หรือไม่","EN":"Are you sure to confirm approve the %s request?"},{"code":"QS0015","TH":"คุณต้องการยืนยันการปฏิเสธ  %s รายการนี้ใช่หรือไม่","EN":"Are you sure to reject %s?"},{"code":"QS0016","TH":"คุณต้องการยืนยันการสร้างใบคำร้องใช่หรือไม่","EN":"Do you want to create this request?"},{"code":"QS0017","TH":"คุณต้องการนำเข้ารายการนี้ใช่หรือไม่","EN":"Do you want to import this transaction?"},{"code":"QS0018","TH":"คุณต้องการนำออกรายการนี้ใช่หรือไม่","EN":"Do you want to export this transaction?"},{"code":"QS0019","TH":"คุณต้องการส่งรายการนี้ใหม่ใช่หรือไม่?","EN":"Do you want to resend this transaction?"},{"code":"QS0020","TH":"คุณต้องการยืนยันการแก้ไขใหม่  %s รายการนี้ใช่หรือไม่","EN":"Are you sure to revise %s?"},{"code":"fsconfirmbtn","TH":"ตกลง","EN":"OK"},{"code":"fscancelbtn","TH":"ยกเลิก","EN":"Cancel"},{"code":"fssavebtn","TH":"บันทึก","EN":"Save"},{"code":"fsclosebtn","TH":"ปิด","EN":"Close"},{"code":"fsokbtn","TH":"ตกลง","EN":"OK"},{"code":"fsmessagetitle","TH":"ข้อความ","EN":"Message"},{"code":"fsaccepttitle","TH":"ยืนยัน","EN":"Confirm"},{"code":"fssuccessmsg","TH":"การดำเนินการสำเร็จ","EN":"Process success"},{"code":"fsfailmsg","TH":"การดำเนินการไม่สำเร็จ","EN":"Process fail"},{"code":"fsalert","TH":"คำเตือน","EN":"Alert"},{"code":"fswarn","TH":"คำเตือน","EN":"Warning"},{"code":"fsconfirm","TH":"ยืนยัน","EN":"Confirmation"},{"code":"fsinfo","TH":"ข้อความ","EN":"Information"},{"code":"QS8021","TH":"ท่านไม่มีสิทธิ์ดูรายการนี้","EN":"No permission to retrieve this transaction"},{"code":"QS8022","TH":"ท่านไม่มีสิทธิ์แก้ไขรายการนี้","EN":"No permission to edit this transaction"},{"code":"QS8023","TH":"ท่านไม่มีสิทธิ์ลบรายการนี้","EN":"No permission to delete this transaction"},{"code":"QS8024","TH":"ท่านไม่มีสิทธิ์สร้างรายการนี้","EN":"No permission to add this transaction"},{"code":"QS8025","TH":"ท่านไม่มีสิทธิ์นำเข้ารายการนี้","EN":"No permission to import this transaction"},{"code":"QS8026","TH":"ท่านไม่มีสิทธิ์นำออกรายการนี้","EN":"No permission to export this transaction"},{"code":"QS0101","TH":"ไม่พบข้อมูลที่ต้องการ โปรดกรุณาระบุและค้นหาใหม่","EN":"Record not found"},{"code":"QS0102","TH":"นำเข้าข้อมูลไม่ถูกต้อง","EN":"Invalid input"},{"code":"QS0103","TH":"ข้อมูลไม่ได้ระบุ","EN":"Value is undefined"},{"code":"QS0104","TH":"ปรับปรุงข้อมูลเรียบร้อย","EN":"Update success"},{"code":"QS0105","TH":"นำเข้าข้อมูลซ้ำซ้อน","EN":"Duplicate record"},{"code":"QS0201","TH":"Reset password success, Please verify your email for new password changed","EN":"Reset password success, Please verify your email for new password changed"},{"code":"QS0202","TH":"Reset Two Factor Success","EN":"Reset Two Factor Success"}]');
 ;// CONCATENATED MODULE: ./src/assets/js/msgutil.js
-
 
 function msgutil_getMessageCode(errcode, params, defaultMessage) {
   if (errcode && errcode.trim().length > 0) {
+    let program_message = getProgramMessage();
     let lang = appinfo_getDefaultLanguage();
     if (!lang || lang.trim().length == 0) lang = "EN";
-    let msg = smart_message_namespaceObject.find(item => {
+    let msg = program_message.find(item => {
       return item.code == errcode;
     });
     if (msg) {
@@ -2520,15 +2554,15 @@ function openNewWindow(settings) {
   } catch (ex) {
     console.error(ex);
   }
-  let sw = window.screen.availWidth;
-  let sh = window.screen.availHeight;
-  let wx = (sw - p.windowWidth) / 2;
-  let wy = (sh - p.windowHeight) / 2;
-  let fs_features = "top=" + wy + ",left=" + wx + ",width=" + p.windowWidth + ",height=" + p.windowHeight + "," + p.windowFeatures;
   let fs_window = null;
   if (p.newTab) {
     if (p.params) fs_window = window.open("", p.windowName);else fs_window = window.open(p.url, p.windowName);
   } else {
+    let sw = window.screen.availWidth;
+    let sh = window.screen.availHeight;
+    let wx = (sw - p.windowWidth) / 2;
+    let wy = (sh - p.windowHeight) / 2;
+    let fs_features = "top=" + wy + ",left=" + wx + ",width=" + p.windowWidth + ",height=" + p.windowHeight + "," + p.windowFeatures;
     if (p.params) fs_window = window.open("", p.windowName, fs_features);else fs_window = window.open(p.url, p.windowName, fs_features);
   }
   fs_window.opener = self;
@@ -5109,16 +5143,12 @@ const EntryFormvue_type_script_lang_js_defaultData = {
 const EntryForm_exports_ = /*#__PURE__*/(0,exportHelper/* default */.A)(EntryFormvue_type_script_lang_js, [['render',EntryFormvue_type_template_id_6e65c34a_render]])
 
 /* harmony default export */ var EntryForm = (EntryForm_exports_);
-;// CONCATENATED MODULE: ./src/assets/json/default_label.json
-var default_label_namespaceObject = /*#__PURE__*/JSON.parse('[{"language":"TH","label":[{"name":"english_lang","value":"อังกฤษ"},{"name":"thai_lang","value":"ไทย"},{"name":"title_new","value":"สร้างใหม่"},{"name":"title_edit","value":"แก้ไข"},{"name":"title_view","value":"มอง"},{"name":"save_button","value":"บันทึก"},{"name":"delete_button","value":"ลบ"},{"name":"retrieve_button","value":"เรียกดู"},{"name":"search_button","value":"ค้นหา"},{"name":"saveas_button","value":"บันทึกเป็น"},{"name":"submit_button","value":"ส่งข้อมูล"},{"name":"cancel_button","value":"ยกเลิก"},{"name":"clear_button","value":"ล้าง"},{"name":"reset_button","value":"ล้าง"},{"name":"update_button","value":"ปรับปรุง"},{"name":"close_button","value":"ปิด"},{"name":"send_button","value":"ส่ง"},{"name":"complete_button","value":"สำเร็จ"},{"name":"download_button","value":"ดาวน์โหลด"},{"name":"insert_button","value":"เพิ่ม"},{"name":"executebutton","value":"ปฏิบัติการ"},{"name":"ok_button","value":"ตกลง"},{"name":"import_button","value":"นำเข้า"},{"name":"export_button","value":"นำออก"},{"name":"remove_button","value":"ลบ"},{"name":"upload_button","value":"อัพโหลด"},{"name":"consend_button","value":"ส่งแบบสอบถาม"},{"name":"version_label","value":"รุ่น"},{"name":"action_label","value":" "},{"name":"active_label","value":"ใช้งาน"},{"name":"inactive_label","value":"ไม่ใช้งาน"},{"name":"all_label","value":"ทั้งหมด"},{"name":"seqno_label","value":"ลำดับที่"},{"name":"page_notfound","value":"ไม่พบหน้าใช้งาน"},{"name":"record_notfound","value":"ไม่พบรายการ"},{"name":"trx_notfound","value":"ไม่พบรายการ"},{"name":"invalid_alert","value":"กรอกข้อมูลไม่ถูกต้อง"},{"name":"empty_alert","value":"กรุณากรอกข้อมูล"}]},{"language":"EN","label":[{"name":"english_lang","value":"English"},{"name":"thai_lang","value":"Thai"},{"name":"title_new","value":"Add New"},{"name":"title_edit","value":"Edit"},{"name":"title_view","value":"View"},{"name":"save_button","value":"Save"},{"name":"delete_button","value":"Delete"},{"name":"retrieve_button","value":"Retrieve"},{"name":"search_button","value":"Search"},{"name":"saveas_button","value":"Save As"},{"name":"submit_button","value":"Submit Data"},{"name":"cancel_button","value":"Cancel"},{"name":"clear_button","value":"Clear"},{"name":"reset_button","value":"Clear"},{"name":"close_button","value":"Close"},{"name":"update_button","value":"Update"},{"name":"send_button","value":"Send"},{"name":"complete_button","value":"Complete"},{"name":"download_button","value":"Down Load"},{"name":"insert_button","value":"Insert"},{"name":"execute_button","value":"Execute"},{"name":"ok_button","value":"OK"},{"name":"import_button","value":"Import"},{"name":"export_button","value":"Export"},{"name":"remove_button","value":"Remove"},{"name":"upload_button","value":"Upload"},{"name":"consend_button","value":"Send"},{"name":"version_label","value":"Version"},{"name":"action_label","value":" "},{"name":"active_label","value":"Active"},{"name":"inactive_label","value":"Inactive"},{"name":"all_label","value":"All"},{"name":"seqno_label","value":"No."},{"name":"page_notfound","value":"Page not found"},{"name":"record_notfound","value":"Record not found"},{"name":"trx_notfound","value":"Transaction not found"},{"name":"invalid_alert","value":"Invalid input"},{"name":"empty_alert","value":"This cannot be empty"}]}]');
-;// CONCATENATED MODULE: ./src/assets/json/program_label.json
-var program_label_namespaceObject = /*#__PURE__*/JSON.parse('[{"language":"TH","label":[{"name":"caption_title","value":"ตัวอย่างข้อมูล"},{"name":"account_label","value":"บัญชี"},{"name":"amount_label","value":"ยอดเงิน"},{"name":"age_label","value":"อายุ"},{"name":"gender_label","value":"เพศ"},{"name":"male_label","value":"ชาย"},{"name":"female_label","value":"หญิง"},{"name":"domestic_label","value":"เป็นคนในประเทศ"},{"name":"effectdate_label","value":"วันที่มีผล"},{"name":"effecttime_label","value":"เวลาที่มีผล"},{"name":"pincode_label","value":"รหัสลับ"},{"name":"marrystatus_label","value":"สถานะ"},{"name":"licenses_label","value":"ใบอนุญาต"},{"name":"languages_label","value":"ภาษา"},{"name":"remark_label","value":"หมายเหตุ"},{"name":"title_label","value":"หัวข้อ"},{"name":"caption_label","value":"คำบรรยาย"},{"name":"assets_label","value":"จำนวนสินทรัพย์"},{"name":"credit_label","value":"จำนวนเครดิต"},{"name":"passcode_label","value":"รหัสผ่าน"},{"name":"createdate_label","value":"วันที่สร้าง"},{"name":"createtime_label","value":"เวลาที่สร้าง"},{"name":"editdate_label","value":"วันที่แก้ไข"},{"name":"edittime_label","value":"เวลาแก้ไข"},{"name":"account_head","value":"บัญชี"},{"name":"amount_head","value":"ยอดเงิน"},{"name":"age_head","value":"อายุ"},{"name":"gender_head","value":"เพศ"},{"name":"effectdate_head","value":"วันที่มีผล"},{"name":"effecttime_head","value":"เวลาที่มีผล"},{"name":"title_head","value":"ชื่อ"},{"name":"age_alert","value":"อายุต้องอยู่ระหว่าง %s และ %s ปี"}]},{"language":"EN","label":[{"name":"caption_title","value":"Sampling Information"},{"name":"account_label","value":"Account"},{"name":"amount_label","value":"Amount"},{"name":"age_label","value":"Age"},{"name":"gender_label","value":"Gender"},{"name":"male_label","value":"Male"},{"name":"female_label","value":"Female"},{"name":"domestic_label","value":"Domestic"},{"name":"effectdate_label","value":"Effect Date"},{"name":"effecttime_label","value":"Effect Time"},{"name":"pincode_label","value":"PIN"},{"name":"marrystatus_label","value":"Status"},{"name":"licenses_label","value":"Licenses"},{"name":"languages_label","value":"Languages"},{"name":"remark_label","value":"Remark"},{"name":"title_label","value":"Title"},{"name":"caption_label","value":"Caption"},{"name":"assets_label","value":"Number of Assets"},{"name":"credit_label","value":"Credit"},{"name":"passcode_label","value":"Pass Code"},{"name":"createdate_label","value":"Create Date"},{"name":"createtime_label","value":"Create Time"},{"name":"editdate_label","value":"Edit Date"},{"name":"edittime_label","value":"Edit Time"},{"name":"account_head","value":"Account"},{"name":"amount_head","value":"Amount"},{"name":"age_head","value":"Age"},{"name":"gender_head","value":"Gender"},{"name":"effectdate_head","value":"Effect Date"},{"name":"effecttime_head","value":"Effect Time"},{"name":"title_head","value":"Title"},{"name":"age_alert","value":"Age must be between %s and %s years"}]}]');
 ;// CONCATENATED MODULE: ./src/assets/js/labelutil.js
-
-
 
 function getLabel(name, defaultLabel, lang = getDefaultLanguage()) {
   let result = undefined;
+  let default_labels = getDefaultLabels();
+  let program_labels = getProgramLabels();
   if (!lang || lang.trim().length == 0) lang = "EN";
   let label_item = getLabelItem(name, lang, program_labels);
   if (label_item) {
@@ -5155,8 +5185,10 @@ function getLabelObject(lang = appinfo_getDefaultLanguage(), label_category) {
   return undefined;
 }
 function getLabelModel(lang = appinfo_getDefaultLanguage()) {
-  let default_item = getLabelObject(lang, default_label_namespaceObject);
-  let program_item = getLabelObject(lang, program_label_namespaceObject);
+  let default_labels = appinfo_getDefaultLabels();
+  let program_labels = appinfo_getProgramLabels();
+  let default_item = getLabelObject(lang, default_labels);
+  let program_item = getLabelObject(lang, program_labels);
   let default_model = {};
   let program_model = {};
   if (default_item) {
@@ -5261,6 +5293,7 @@ function getLabelModel(lang = appinfo_getDefaultLanguage()) {
       console.log("messagingHandler: data", data);
     },
     changeLanguage(lang) {
+      setDefaultLanguage(lang);
       let labelModel = getLabelModel(lang);
       this.labels = labelModel;
       this.resetDataCategories(lang);
@@ -5392,8 +5425,15 @@ const AppDemo002_exports_ = /*#__PURE__*/(0,exportHelper/* default */.A)(AppDemo
 
 
 
+
+appInit({
+  program_message: program_message_namespaceObject,
+  default_labels: default_label_namespaceObject,
+  program_labels: program_label_namespaceObject
+});
+
+
 console.info("Vue version", runtime_core_esm_bundler/* version */.rE);
-console.info("AppDemo002 loading ...");
 (0,runtime_dom_esm_bundler/* createApp */.Ef)(AppDemo002).mount('#app');
 
 //cannot use Demo002 : Component name "Demo002" should always be multi-word
@@ -5583,9 +5623,9 @@ console.info("AppDemo002 loading ...");
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], function() { return __webpack_require__(5384); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], function() { return __webpack_require__(1845); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=index.1424ea98.js.map
+//# sourceMappingURL=index.6a4a57e1.js.map
