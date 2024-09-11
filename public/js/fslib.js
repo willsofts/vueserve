@@ -15,6 +15,7 @@ var API_TOKEN = null;
 var BASE_STORAGE = "";
 var SECURE_STORAGE = true;
 var META_INFO = {};
+var CHAT_URL = "";
 function getWindowByName(winname) {
 	if(!winname) return null;
 	for(let i=0,isz=fs_winary.length;i<isz;i++) {
@@ -923,6 +924,7 @@ function parseErrorThrown(xhr,status,errorThrown) {
 	try{
 		if(xhr.status==400 || xhr.status==401) errorThrown = xhr.responseText; //400=Bad Request,401=Unauthen
 		let json = $.parseJSON(xhr.responseText);
+		if(json.message) errorThrown = json.message;
 		if(json.text) errorThrown = json.text;
         if(json.head.errordesc) errorThrown = json.head.errordesc;
 	}catch(ex) { }

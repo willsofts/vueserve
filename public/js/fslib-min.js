@@ -1,4 +1,4 @@
-var fs_default_raw_parameters=false;var fs_default_language="EN";var fs_mainPage="index";var fs_currentpid=null;var fs_langsDocs=null;var fs_mainDocs=null;var fs_defaultDocs=null;var fs_labelAry=null;var fs_winary=new Array();var fs_fontSize=14;var API_URL="";var BASE_URL="";var CDN_URL="";var API_TOKEN=null;var BASE_STORAGE="";var SECURE_STORAGE=true;var META_INFO={};function getWindowByName(winname){if(!winname)return null;for(let i=0,isz=fs_winary.length;i<isz;i++){try{if(fs_winary[i]){if(fs_winary[i].name==winname)return fs_winary[i];}}catch(ex){}}
+var fs_default_raw_parameters=false;var fs_default_language="EN";var fs_mainPage="index";var fs_currentpid=null;var fs_langsDocs=null;var fs_mainDocs=null;var fs_defaultDocs=null;var fs_labelAry=null;var fs_winary=new Array();var fs_fontSize=14;var API_URL="";var BASE_URL="";var CDN_URL="";var API_TOKEN=null;var BASE_STORAGE="";var SECURE_STORAGE=true;var META_INFO={};var CHAT_URL="";function getWindowByName(winname){if(!winname)return null;for(let i=0,isz=fs_winary.length;i<isz;i++){try{if(fs_winary[i]){if(fs_winary[i].name==winname)return fs_winary[i];}}catch(ex){}}
 return null;}
 function closeChildWindows(){for(let i=0,isz=fs_winary.length;i<isz;i++){try{if(fs_winary[i])fs_winary[i].close();}catch(ex){}}}
 function addWindow(awindow){if(!awindow)return;fs_winary.push(awindow);}
@@ -134,7 +134,7 @@ let wx=(sw-p.windowWidth)/2;let wy=(sh-p.windowHeight)/2;let fs_features="top="+
 fs_window.opener=self;try{window.parent.addWindow(fs_window);}catch(ex){}
 submitWindow(p);return fs_window;}
 function parseErrorThrown(xhr,status,errorThrown){if(!errorThrown){errorThrown=xhr.responseText;}else{if(errorThrown==xhr.status){errorThrown=xhr.responseText;}}
-try{if(xhr.status==400||xhr.status==401)errorThrown=xhr.responseText;let json=$.parseJSON(xhr.responseText);if(json.text)errorThrown=json.text;if(json.head.errordesc)errorThrown=json.head.errordesc;}catch(ex){}
+try{if(xhr.status==400||xhr.status==401)errorThrown=xhr.responseText;let json=$.parseJSON(xhr.responseText);if(json.message)errorThrown=json.message;if(json.text)errorThrown=json.text;if(json.head.errordesc)errorThrown=json.head.errordesc;}catch(ex){}
 if($.trim(errorThrown)=="")errorThrown="Unknown error or network error";return errorThrown;}
 function replaceString(str,arrStr){if(arrStr){let regex=/%s/;for(let i=0;i<arrStr.length;i++){let t_str=arrStr[i];str=str.replace(regex,t_str);}}
 if(str){let regex=/%s/g;str=str.replace(regex,"");}
