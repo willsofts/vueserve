@@ -1,6 +1,6 @@
 {
     "HTTP_PORT": 8080,
-    "//CDN_URL": "https://cdn.jsdelivr.net/gh/willsofts/will-asset@1.0.31", 
+    "//CDN_URL": "https://cdn.jsdelivr.net/gh/willsofts/will-asset@1.0.33", 
     "SECRET_KEY": "ASSURE_OF_SECRET_KEY",
     "VALIDATE_ANOMYMOUS_TOKEN": "false",
     "XFRAME_OPTION": "false",
