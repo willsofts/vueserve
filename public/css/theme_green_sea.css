@@ -7,17 +7,12 @@
 .login_form button {
 	border-color: #00B17E;
 }
-.login_form input[type="button"] {
+.login_form input[type="button"]{
 	background-color: whitesmoke;
 	border-color: #00B17E;
 }
 .login_form input[type="button"]:focus,
 .login_form input[type="button"]:hover{
-	background: #00B17E;
-	color: white;
-}
-.login_form button:focus,
-.login_form button:hover{
 	background: #00B17E;
 	color: white;
 }
@@ -29,7 +24,7 @@
 	font-size: 55px;
 	font-weight: bold;
 	color: #00B17E;
-	text-shadow: 3px 7px 7px darkgrey;
+	text-shadow: 3px 7px 7px white;
 }
 #page_login_toplayer {	
 	background-image: -webkit-linear-gradient(white, #CFFAE7);
@@ -167,5 +162,3 @@ table.partition-table { background-color: #00B17E; }
 .program-controlbar {
 	background-color: #00B17E; 
 }
-.pass-word { color: darkcyan; font-style: italic; }
-.go-word { color: lightseagreen; font-style: italic; }
