@@ -540,21 +540,23 @@ function startReceiveBroadcast(chat_url) {
     socket = (0,esm/* default */.Ay)(chat_url);
     socket.on('broadcast-message', function (msg) {
       console.log("broadcast-message:", msg);
-      let div = jquery_default()("<div class='bc-layer'></div>");
-      let link = jquery_default()("<a href=\"javascript:void(0)\" class=\"bc-close\" aria-label=\"close\"></a>").html("<em class='fa fa-close'></em>");
-      link.on("click", () => {
-        div.remove();
-      });
-      let span = jquery_default()("<span></span>").html(msg.message);
-      let body = jquery_default()("body");
-      let isz = body.find("div.bc-layer").length;
-      if (isz > 0 && isz < 10) {
-        let bottom = isz * 50;
-        div.css({
-          bottom: bottom
+      if (msg.type == "bc") {
+        let div = jquery_default()("<div class='bc-layer'></div>");
+        let link = jquery_default()("<a href=\"javascript:void(0)\" class=\"bc-close\" aria-label=\"close\"></a>").html("<em class='fa fa-close'></em>");
+        link.on("click", () => {
+          div.remove();
         });
+        let span = jquery_default()("<span></span>").html(msg.message);
+        let body = jquery_default()("body");
+        let isz = body.find("div.bc-layer").length;
+        if (isz > 0 && isz < 10) {
+          let bottom = isz * 50;
+          div.css({
+            bottom: bottom
+          });
+        }
+        div.append(link).append(span).appendTo(body);
       }
-      div.append(link).append(span).appendTo(body);
     });
   }
 }
@@ -4506,4 +4508,4 @@ console.log("Vue version", runtime_core_esm_bundler/* version */.rE);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=index.7cdf9d02.js.map
+//# sourceMappingURL=index.c41749c6.js.map
