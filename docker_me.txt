@@ -24,6 +24,7 @@
     3.4 push
         docker push willsofts/vueserve:1.0.0
         docker push willsofts/vueserve:latest
+    remark: can using docker_push.bat
 
 4. pull image
     docker pull willsofts/vueserve:latest
