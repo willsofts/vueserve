@@ -1,0 +1,32 @@
+1. create docker images
+    1.1 command
+    docker build -t willsofts/vueserve .
+    1.2 check images
+    docker images
+
+2. test run docker images
+    2.1 run
+    docker run --name vueserve --env VALIDATE_TOKEN=false -p 8080:8080 willsofts/vueserve    
+    2.2 try to simulate test by calling api:
+    curl http://localhost:8080/api/config/list
+    2.3 stop & remove container
+    docker stop vueserve
+    docker rm vueserve
+
+3. push image to docker hub
+    3.1 login
+        docker login
+        docker login --username willsofts --password Tassan@2024
+    3.2 tag
+        docker tag willsofts/vueserve willsofts/vueserve:1.0.0
+    3.3 tag latest
+        docker tag willsofts/vueserve willsofts/vueserve:latest
+    3.4 push
+        docker push willsofts/vueserve:1.0.0
+        docker push willsofts/vueserve:latest
+
+4. pull image
+    docker pull willsofts/vueserve:latest
+    run test
+    docker run --name vueserve --env VALIDATE_TOKEN=false -p 8080:8080 willsofts/vueserve
+
