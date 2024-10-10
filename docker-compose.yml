@@ -4,6 +4,7 @@ services:
     image: willsofts/vueserve:1.0.0
     container_name: vueserve
     environment:
+      - TZ=Asia/Bangkok
       - VALIDATE_TOKEN=false
     ports:
       - 8080:8080
