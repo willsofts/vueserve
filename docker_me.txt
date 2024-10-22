@@ -27,8 +27,7 @@
     remark: can using docker_push.bat
 
 4. pull image
-    docker pull willsofts/vueserve
     docker pull willsofts/vueserve:latest
     run test
     docker run --name vueserve --env VALIDATE_TOKEN=false -p 8080:8080 willsofts/vueserve
-
+    remark: can using docker-compose.yml
