@@ -13,7 +13,6 @@
     "runins": "kn-runner --instances cpu ./dist/services ./dist/worker ./dist/operators ./dist/gateway",
     "worker": "kn-runner --repl ./dist/services ./dist/workers ./dist/operators",
     "gateway": "kn-runner ./dist/gateway",
-    "gateways": "kn-runner ./dist/services ./dist/workers ./dist/gateway",
     "service": "kn-runner ./dist/services ./dist/workers ./dist/operators",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,8 +27,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.666.0",
     "@willsofts/will-api": "^1.0.13",
-    "@willsofts/will-core": "^1.1.21",
+    "@willsofts/will-core": "^1.1.22",
     "@willsofts/will-db": "^1.0.55",
     "@willsofts/will-dh": "^1.0.2",
     "@willsofts/will-lib": "^1.0.27",
@@ -48,6 +48,7 @@
     "crypto-js": "^4.1.1",
     "ecdh": "^0.2.0",
     "ejs": "^3.1.10",
+    "exceljs": "^4.4.0",
     "express": "^4.21.0",
     "express-session": "^1.18.0",
     "find-prime": "^3.0.1",
