@@ -16,6 +16,26 @@
 CREATE DATABASE IF NOT EXISTS `assuredb` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `assuredb`;
 
+CREATE TABLE IF NOT EXISTS `api_config` (
+  `apiname` varchar(50) NOT NULL,
+  `apiquery` text NOT NULL,
+  `apiparams` text,
+  `apisection` varchar(50) DEFAULT NULL,
+  `inactive` varchar(1) DEFAULT '0' COMMENT '1=Inactive',
+  `createdate` date DEFAULT NULL,
+  `createtime` time DEFAULT NULL,
+  `createuser` varchar(50) DEFAULT NULL,
+  `editdate` date DEFAULT NULL,
+  `edittime` time DEFAULT NULL,
+  `edituser` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`apiname`)
+) ENGINE=InnoDB DEFAULT COMMENT='table keep api lookup config';
+
+INSERT INTO `api_config` (`apiname`, `apiquery`, `apiparams`, `apisection`, `inactive`, `createdate`, `createtime`, `createuser`, `editdate`, `edittime`, `edituser`) VALUES
+	('api_prod', 'select * from tprod', NULL, NULL, '0', '2023-03-24', '18:04:23', NULL, '2023-03-24', '18:07:07', NULL),
+	('api_prog', 'select * from tprog', NULL, NULL, '0', '2024-11-04', '10:18:48', NULL, '2024-11-04', '10:18:49', NULL),
+	('api_role', 'select * from trole where site=?site order by roleid', NULL, NULL, '0', '2023-03-24', '18:00:20', NULL, '2023-03-24', '18:00:34', NULL);
+
 -- Dumping structure for table assuredb.tactivate
 CREATE TABLE IF NOT EXISTS `tactivate` (
   `activatekey` varchar(100) NOT NULL,
