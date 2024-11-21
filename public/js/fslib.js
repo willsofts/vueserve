@@ -11,11 +11,13 @@ var fs_fontSize = 14;
 var API_URL = "";
 var BASE_URL = "";
 var CDN_URL = "";
-var API_TOKEN = null;
+var IMG_URL = "";
+var API_TOKEN = "";
 var BASE_STORAGE = "";
 var SECURE_STORAGE = true;
 var META_INFO = {};
 var CHAT_URL = "";
+var BASE_CSS = "";
 function getWindowByName(winname) {
 	if(!winname) return null;
 	for(let i=0,isz=fs_winary.length;i<isz;i++) {
@@ -1726,7 +1728,7 @@ function getDH() {
 }
 function sendMessageInterface() {
 	let info = getAccessorInfo();
-	let msg = {type: "storage", API_URL: API_URL, BASE_URL: BASE_URL, API_TOKEN: API_TOKEN, BASE_STORAGE: BASE_STORAGE, SECURE_STORAGE: SECURE_STORAGE, accessorinfo: info};
+	let msg = {type: "storage", archetype: "willsofts", API_URL: API_URL, BASE_URL: BASE_URL, API_TOKEN: API_TOKEN, BASE_STORAGE: BASE_STORAGE, SECURE_STORAGE: SECURE_STORAGE, accessorinfo: info};
 	sendMessageToFrame(msg);
 }
 function sendMessageToFrame(data) {
