@@ -176,6 +176,10 @@ ex. response
 data service
 difference from data table, this is custom query from table api_config
 ex.
+- get data using lookup with api name & parameters
 curl "http://localhost:8080/api/dataservice/lookup?apiname=api_role&site=FWS"
+- get data array using lists
 curl -X POST http://localhost:8080/api/dataservice/lists -d "apiname=api_prog&apiname=api_prod"
+- get data array using lists by json parameters
 curl -X POST -H "Content-Type: application/json" http://localhost:8080/api/dataservice/lists -d "{\"apiname\":[\"api_prog\",\"api_prod\"]}"
+curl -X POST -H "Content-Type: application/json" http://localhost:8080/api/dataservice/lists -d "{\"apiname\":[\"api_prog\",\"api_role\"],\"site\":\"FWS\"}"
