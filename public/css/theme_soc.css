@@ -9,7 +9,7 @@
 .login_form button {
 	border-color: #00B17E;
 }
-.login_form input[type="button"]{
+.login_form input[type="button"] {
 	background-color: whitesmoke;
 	border-color: #00B17E;
 }
@@ -51,7 +51,7 @@ div.link-button-cover a:hover {
 	background-color: #00B17E;
 }
 .sidebar-menu {
-	background-color: #00B17E;
+	background-color: #194D39;
 }
 .pt-page h1 { background-color: #00B17E;  }
 .pt-page th { background-color: #00B17E; }
@@ -59,23 +59,23 @@ div.link-button-cover a:hover {
 	background-color: #00B17E; 
 }
 .btn-primary {
-	border: 1px solid #068049;
-	background-color: #068049;
+	border: 1px solid #194D39;
+	background-color: #194D39;
 	min-width: 60px;	
 }
 .btn-secondary {
-	border: 1px solid #068049;
-	background-color: #068049;
+	border: 1px solid #194D39;
+	background-color: #194D39;
 	min-width: 60px;	
 }
 .btn-dark {
-	border: 1px solid #068049;
-	background-color: #068049;	
+	border: 1px solid #194D39;
+	background-color: #194D39;	
 	min-width: 60px;	
 }
 .btn-spot {
-	border: 1px solid #068049;
-	background-color: #068049;		
+	border: 1px solid #194D39;
+	background-color: #194D39;		
 	min-width: 60px;	
 }
 .btn-spot:hover,
