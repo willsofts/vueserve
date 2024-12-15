@@ -45,16 +45,14 @@ div.link-button-cover a:hover {
 }
 
 .navigatebar-top {
-	background-color: #fff;	
+	background-color: #2E7555;	
 }
-#navigatebar {
-	border-bottom: 1px solid #e8e7ec;
-}
+/*#navigatebar { border-bottom: 1px solid #e8e7ec; }*/
 #footerbar { 
 	background-color: #00B17E;
 }
 .sidebar-menu {
-	background-color: #194D39;
+	background-color: #2E7555;
 }
 .pt-page h1 { background-color: #00B17E;  }
 .pt-page th { background-color: #00B17E; }
@@ -164,7 +162,7 @@ table.partition-table { background-color: #00B17E; }
 	background-color: #194D39;
 }
 #sidebarheader { 
-	background-color: #068049;
+	background-color: #194D39;
 }
 #fsprogramcontrolbar {
 	background-color: #00B17E; 
@@ -174,8 +172,3 @@ table.partition-table { background-color: #00B17E; }
 }
 .pass-word { color: darkcyan; font-style: italic; }
 .go-word { color: lightseagreen; font-style: italic; }
-
-.sidebar-menu {
-	height: 100%;
-	margin-top: 0px;
-}
